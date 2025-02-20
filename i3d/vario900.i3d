@@ -1068,7 +1068,7 @@
           <TransformGroup name="cameraRaycastNode2" translation="0 3.43046 0.082331" nodeId="307"/>
           <TransformGroup name="cameraRaycastNode3" translation="0 3.43 -1.7381" nodeId="308"/>
           <Shape name="shadowFocusBox" translation="0 2.58047 -0.814737" shapeId="10" clipDistance="150" nodeId="309" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="8"/>
-          <Camera name="workCam" translation="-3.40462 3.6154 3.72815" rotation="-4.12628 -31.6477 -3.44753e-07" nodeId="310" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1"/>
+          <Camera name="workCam" translation="1.88734 3.07064 -2.42409" rotation="5.72843 85.4142 -1.04296e-08" nodeId="310" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1"/>
         </TransformGroup>
         <TransformGroup name="lights" nodeId="311">
           <TransformGroup name="sharedLights" nodeId="312">
@@ -1251,7 +1251,7 @@
             <Shape name="windows01" translation="0.826589 2.49982 -0.552192" shapeId="58" clipDistance="200" nodeId="437" castsShadows="true" receiveShadows="true" materialIds="97"/>
             <Shape name="windows02" translation="0.809696 2.82063 -1.27953" shapeId="59" clipDistance="200" nodeId="438" castsShadows="true" receiveShadows="true" materialIds="97"/>
             <Shape name="windows03" translation="0.038696 2.78624 -1.59911" shapeId="60" clipDistance="200" nodeId="439" castsShadows="true" receiveShadows="true" materialIds="97">
-              <Shape name="Aufkleber_Quadrat" translation="-0.001096 -0.0823176 -0.0407756" shapeId="61" clipDistance="300" nodeId="440" castsShadows="true" receiveShadows="true" distanceBlending="false" doubleSided="true" materialIds="5"/>
+              <Shape name="Aufkleber_Quadrat" translation="-0.001096 -0.0799696 -0.0556001" rotation="9 -0 0" shapeId="61" clipDistance="300" nodeId="440" castsShadows="true" receiveShadows="true" distanceBlending="false" doubleSided="true" materialIds="5"/>
             </Shape>
             <Shape name="windows04" translation="-0.740829 2.50412 -0.804933" shapeId="62" clipDistance="200" nodeId="441" castsShadows="true" receiveShadows="true" materialIds="97"/>
             <Shape name="windows05" translation="0.037525 2.56869 -0.03644" shapeId="63" clipDistance="200" nodeId="442" castsShadows="true" receiveShadows="true" materialIds="97"/>
