@@ -827,7 +827,7 @@
         </designConfiguration>
     </designConfigurations>
     <baseColorConfigurations useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint" title="Karosserie">
-        <baseColorConfiguration name="Thunderfarming Blue" color="0.047 0.0 0.361" isDefault="true"/>
+        <baseColorConfiguration name="Thunderfarming Black" color="0 0 0" isDefault="true"/>
         <material materialSlotName="Karosserie"/>
     </baseColorConfigurations>
     <designColorConfigurations useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint" title="Fender">
