@@ -21,3 +21,4 @@ jobs:
       uses: ncipollo/release-action@v1.12.0
       with:
         artifacts: "LS25_Thunderfarming_Vario_900.zip"
+        allowUpdates: true
