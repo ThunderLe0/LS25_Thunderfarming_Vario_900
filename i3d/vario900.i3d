@@ -7,6 +7,7 @@
 
   <Files>
     <File fileId="68" filename="../textures/Aufkleber(Quadrat) White/Aufkleber(Quadrat).dds"/>
+    <File fileId="92" filename="../textures/vario900Decals_diffuse.dds"/>
     <File fileId="50" filename="$data/shaders/glowShader.xml"/>
     <File fileId="73" filename="$data/shaders/mirrorShader.xml"/>
     <File fileId="5" filename="$data/shaders/vehicleShader.xml"/>
@@ -29,10 +30,10 @@
     <File fileId="32" filename="$data/shared/detailLibrary/metallic/clear_specular.png"/>
     <File fileId="34" filename="$data/shared/detailLibrary/metallic/glass/glassClear03_specular.png"/>
     <File fileId="83" filename="$data/shared/detailLibrary/metallic/rough_specular.png"/>
-    <File fileId="97" filename="$data/shared/detailLibrary/metallic/scratched_diffuse.png"/>
-    <File fileId="96" filename="$data/shared/detailLibrary/metallic/scratched_specular.png"/>
-    <File fileId="93" filename="$data/shared/detailLibrary/metallic/silverBumpy_normal.png"/>
-    <File fileId="92" filename="$data/shared/detailLibrary/metallic/silverBumpy_specular.png"/>
+    <File fileId="98" filename="$data/shared/detailLibrary/metallic/scratched_diffuse.png"/>
+    <File fileId="97" filename="$data/shared/detailLibrary/metallic/scratched_specular.png"/>
+    <File fileId="94" filename="$data/shared/detailLibrary/metallic/silverBumpy_normal.png"/>
+    <File fileId="93" filename="$data/shared/detailLibrary/metallic/silverBumpy_specular.png"/>
     <File fileId="40" filename="$data/shared/detailLibrary/metallic/silverScratched_diffuse.png"/>
     <File fileId="39" filename="$data/shared/detailLibrary/metallic/silverScratched_specular.png"/>
     <File fileId="79" filename="$data/shared/detailLibrary/nonMetallic/fabric/fabric1_diffuse.png"/>
@@ -56,8 +57,8 @@
     <File fileId="37" filename="$data/shared/detailLibrary/nonMetallic/plastic/plasticGraniteGrainSmall_specular.png"/>
     <File fileId="8" filename="$data/shared/detailLibrary/nonMetallic/plastic/plasticPainted_diffuse.png"/>
     <File fileId="6" filename="$data/shared/detailLibrary/nonMetallic/plastic/plasticPainted_specular.png"/>
-    <File fileId="95" filename="$data/shared/detailLibrary/nonMetallic/reflector/reflector_diffuse.png"/>
-    <File fileId="94" filename="$data/shared/detailLibrary/nonMetallic/reflector/reflector_specular.png"/>
+    <File fileId="96" filename="$data/shared/detailLibrary/nonMetallic/reflector/reflector_diffuse.png"/>
+    <File fileId="95" filename="$data/shared/detailLibrary/nonMetallic/reflector/reflector_specular.png"/>
     <File fileId="22" filename="$data/shared/detailLibrary/nonMetallic/rubber/rubberBlack_diffuse.png"/>
     <File fileId="21" filename="$data/shared/detailLibrary/nonMetallic/rubber/rubber_normal.png"/>
     <File fileId="20" filename="$data/shared/detailLibrary/nonMetallic/rubber/rubber_specular.png"/>
@@ -150,9 +151,9 @@
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Glossmap fileId="4"/>
-      <Custommap name="detailSpecular" fileId="96"/>
+      <Custommap name="detailSpecular" fileId="97"/>
       <Custommap name="detailNormal" fileId="7"/>
-      <Custommap name="detailDiffuse" fileId="97"/>
+      <Custommap name="detailDiffuse" fileId="98"/>
       <CustomParameter name="colorScale" value="0.9647 0.7913 0.3095"/>
     </Material>
     <Material name="vario900_calibratedCastIron_FENDT_GREY2_mat" materialId="14" customShaderId="5">
@@ -302,9 +303,9 @@
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Glossmap fileId="4"/>
-      <Custommap name="detailSpecular" fileId="94"/>
+      <Custommap name="detailSpecular" fileId="95"/>
       <Custommap name="detailNormal" fileId="7"/>
-      <Custommap name="detailDiffuse" fileId="95"/>
+      <Custommap name="detailDiffuse" fileId="96"/>
       <CustomParameter name="colorScale" value="1.1 0.185 0"/>
       <CustomParameter name="clearCoatIntensity" value="0.25"/>
       <CustomParameter name="clearCoatSmoothness" value="1"/>
@@ -313,9 +314,9 @@
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Glossmap fileId="4"/>
-      <Custommap name="detailSpecular" fileId="94"/>
+      <Custommap name="detailSpecular" fileId="95"/>
       <Custommap name="detailNormal" fileId="7"/>
-      <Custommap name="detailDiffuse" fileId="95"/>
+      <Custommap name="detailDiffuse" fileId="96"/>
       <CustomParameter name="colorScale" value="0.634 0 0"/>
       <CustomParameter name="clearCoatIntensity" value="0.25"/>
       <CustomParameter name="clearCoatSmoothness" value="1"/>
@@ -324,9 +325,9 @@
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Glossmap fileId="4"/>
-      <Custommap name="detailSpecular" fileId="94"/>
+      <Custommap name="detailSpecular" fileId="95"/>
       <Custommap name="detailNormal" fileId="7"/>
-      <Custommap name="detailDiffuse" fileId="95"/>
+      <Custommap name="detailDiffuse" fileId="96"/>
       <CustomParameter name="colorScale" value="0.752 0.752 0.752"/>
       <CustomParameter name="clearCoatIntensity" value="0.25"/>
       <CustomParameter name="clearCoatSmoothness" value="1"/>
@@ -345,8 +346,8 @@
       <Texture fileId="15"/>
       <Normalmap fileId="16"/>
       <Glossmap fileId="4"/>
-      <Custommap name="detailSpecular" fileId="92"/>
-      <Custommap name="detailNormal" fileId="93"/>
+      <Custommap name="detailSpecular" fileId="93"/>
+      <Custommap name="detailNormal" fileId="94"/>
       <Custommap name="detailDiffuse" fileId="25"/>
       <CustomParameter name="colorScale" value="0.7379 0.7454 0.7529"/>
     </Material>
@@ -444,6 +445,14 @@
       <CustomParameter name="smoothnessScale" value="0.85"/>
       <CustomParameter name="clearCoatIntensity" value="0.1"/>
       <CustomParameter name="clearCoatSmoothness" value="0.2"/>
+    </Material>
+    <Material name="vario900Decals_chrome_mat" materialId="773" alphaBlending="true" customShaderId="5" customShaderVariation="vmaskUV2_normalUV3">
+      <Texture fileId="92"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+      <Custommap name="detailSpecular" fileId="32"/>
+      <Custommap name="detailNormal" fileId="7"/>
+      <Custommap name="detailDiffuse" fileId="25"/>
     </Material>
     <Material name="vario900Decals_chrome_mat" materialId="42" alphaBlending="true" customShaderId="5" customShaderVariation="vmaskUV2_normalUV3">
       <Texture fileId="2"/>
@@ -1068,7 +1077,7 @@
           <TransformGroup name="cameraRaycastNode2" translation="0 3.43046 0.082331" nodeId="307"/>
           <TransformGroup name="cameraRaycastNode3" translation="0 3.43 -1.7381" nodeId="308"/>
           <Shape name="shadowFocusBox" translation="0 2.58047 -0.814737" shapeId="10" clipDistance="150" nodeId="309" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="8"/>
-          <Camera name="workCam" translation="1.88734 3.07064 -2.42409" rotation="5.72843 85.4142 -1.04296e-08" nodeId="310" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1"/>
+          <Camera name="workCam" translation="3.00865 2.15115 1.93722" rotation="3.20747 64.3296 -3.0795e-08" nodeId="310" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1"/>
         </TransformGroup>
         <TransformGroup name="lights" nodeId="311">
           <TransformGroup name="sharedLights" nodeId="312">
@@ -1629,7 +1638,7 @@
           <Shape name="engine_grid" translation="-3.4e-05 1.87106 1.64638" shapeId="127" clipDistance="300" nodeId="757" castsShadows="true" receiveShadows="true" materialIds="39"/>
           <Shape name="engine_grid2" translation="-3.4e-05 1.87106 1.64638" shapeId="128" clipDistance="300" nodeId="758" castsShadows="true" receiveShadows="true" materialIds="37"/>
           <Shape name="alpha_decals" translation="-0.405509 1.82752 -0.345702" shapeId="129" nodeId="759" castsShadows="true" receiveShadows="true" materialIds="36,38,35,38"/>
-          <Shape name="exterior_decals" translation="0.029388 1.68088 0.22638" shapeId="130" clipDistance="80" nodeId="760" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="42,43,45,46,44"/>
+          <Shape name="exterior_decals" translation="0.029388 1.68088 0.22638" shapeId="130" clipDistance="80" nodeId="760" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="773,43,45,46,44"/>
           <TransformGroup name="lod01" lodDistance="0 50" nodeId="761">
             <Shape name="vario900_vis_lod0" shapeId="131" clipDistance="300" nodeId="762" castsShadows="true" receiveShadows="true" skinBindNodeIds="762 296 298 327 425 426 431 433 435 542 543 544 549 550 555 613 622 623 627 628 635 637 640 642 645 651 652 656 661 668 680 683 686 689 692 695 698 701 704 707 710 713 716 719 755" materialIds="32,16,18,27,21,24,33,34,22,17,28,31,26,13,25,22,23,14,29,30,23,15,20,19"/>
             <Shape name="vario900_vis_lod1" shapeId="132" clipDistance="300" nodeId="763" castsShadows="true" receiveShadows="true" skinBindNodeIds="763 248 255 276 283 585 605 610 612 634 648 650 653 655" materialIds="32,18,31,16,27,21,24,22,17,23,23,15,34,29"/>
