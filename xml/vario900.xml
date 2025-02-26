@@ -43,19 +43,19 @@
             <tireCombination brand="VREDESTEIN" names="traxionOptimall" />
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" saveId="DEFAULT" numDynamicConfigurations="1">
                 <wheels autoRotateBackSpeed="2.1">
-                    <wheel filename="$data\shared\wheels\tires\nokian\groundKing\650_65R34.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
+                    <wheel dimensions="650_65R34 600_60R38 600_70R34" isLeft="true" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.8" repr="wheelFrontLeftRepr" driveNode="wheelFrontLeft" forcePointRatio="0.55" initialCompression="25" suspTravel="0.25" spring="40" damper="60" transRatio="1" yOffset="-0.002" />
                         <steering node="steeringBarCenter" nodeMinTransX="-0.125" nodeMaxTransX="0.125" />
                         <fender node="fenderLeft" rotMax="22" />
                     </wheel>
-                    <wheel filename="$data\shared\wheels\tires\nokian\groundKing\650_65R34.xml" isLeft="false" hasTireTracks="true" hasParticles="true">
+                    <wheel dimensions="650_65R34 600_60R38 600_70R34" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics rotSpeed="1" restLoad="2.8" repr="wheelFrontRightRepr" driveNode="wheelFrontRight" forcePointRatio="0.55" initialCompression="25" suspTravel="0.25" spring="40" damper="60" transRatio="1" yOffset="-0.002" />
                         <fender node="fenderRight" rotMin="-22" />
                     </wheel>
-                    <wheel filename="$data\shared\wheels\tires\nokian\groundKing\710_75R42.xml" isLeft="true" hasTireTracks="true" hasParticles="true" rimOffset="0.037">
+                    <wheel dimensions="710_75R42 750_70R44 710_75R42" isLeft="true" hasTireTracks="true" hasParticles="true" rimOffset="0.037">
                         <physics rotSpeed="0" restLoad="2.8" repr="wheelBackLeft" maxInnerSpacing="0.38" forcePointRatio="0.35" initialCompression="22" suspTravel="0.15" spring="70" damper="60" yOffset="0.04" />
                     </wheel>
-                    <wheel filename="$data\shared\wheels\tires\nokian\groundKing\710_75R42.xml" isLeft="false" hasTireTracks="true" hasParticles="true" rimOffset="0.037">
+                    <wheel dimensions="710_75R42 750_70R44 710_75R42" isLeft="false" hasTireTracks="true" hasParticles="true" rimOffset="0.037">
                         <physics rotSpeed="0" restLoad="2.8" repr="wheelBackRight" maxInnerSpacing="0.38" forcePointRatio="0.35" initialCompression="22" suspTravel="0.15" spring="70" damper="60" yOffset="0.04" />
                     </wheel>
                 </wheels>
