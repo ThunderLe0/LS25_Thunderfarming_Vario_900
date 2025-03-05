@@ -6,7 +6,7 @@ on:
     - 'v*.*.*'
 
 env:
-  REPO_NAME: ${{ github.event.repository.name }}
+  REPO_NAME: ${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}
 
 jobs:
   build:
