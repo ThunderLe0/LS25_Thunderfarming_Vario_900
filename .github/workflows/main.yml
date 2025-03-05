@@ -4,18 +4,16 @@ on:
   push:
     tags:
     - 'v*.*.*'
-
-env:
-  REPO_NAME: ${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}
-
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: write      
     steps:
-    - name: Print name
-      run: echo "$REPO_NAME"
+    - name: Set ENV variables
+      run: echo "REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}" >> $GITHUB_ENV
+    - name: test
+      run: echo $REPO_NAME
     - uses: actions/checkout@master
     - name: Archive Release
       uses: thedoctor0/zip-release@0.7.6
