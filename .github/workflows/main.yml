@@ -16,13 +16,16 @@ jobs:
       run: echo $REPO_NAME
     - uses: actions/checkout@master
     - name: Archive Release
+      
       uses: thedoctor0/zip-release@0.7.6
       with:
         type: 'zip'
         filename: '$REPO_NAME.zip'
+        run: echo "REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}" >> $GITHUB_ENV
         exclusions: '/.git* .git* README.md'
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
+        run: echo "REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}" >> $GITHUB_ENV
         artifacts: "$REPO_NAME.zip"
         allowUpdates: true
