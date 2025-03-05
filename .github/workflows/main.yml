@@ -4,6 +4,9 @@ on:
   push:
     tags:
     - 'v*.*.*'
+env:
+  REPO_NAME: ${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +14,16 @@ jobs:
       contents: write      
     steps:
     - name: Set ENV variables
-      run: echo "REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}" >> $GITHUB_ENV
-    - name: test
-      run: echo $REPO_NAME
+      run: echo ${{env.REPO_NAME}}
     - uses: actions/checkout@master
     - name: Archive Release
-      
       uses: thedoctor0/zip-release@0.7.6
       with:
         type: 'zip'
-        filename: '$REPO_NAME.zip'
-        run: echo "REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}" >> $GITHUB_ENV
+        filename: '${{env.REPO_NAME}}.zip'
         exclusions: '/.git* .git* README.md'
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
-        run: echo "REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}" >> $GITHUB_ENV
-        artifacts: "$REPO_NAME.zip"
+        artifacts: '${{env.REPO_NAME}}.zip'
         allowUpdates: true
