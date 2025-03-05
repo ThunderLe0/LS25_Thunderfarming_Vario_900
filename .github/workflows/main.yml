@@ -10,9 +10,13 @@ jobs:
     permissions:
       contents: write      
     steps:
+<<<<<<< HEAD
     - name: Set ENV variables
       run: echo "REPO_NAME=${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}" >> $GITHUB_ENV
     - name: test
+=======
+    - name: Print name
+>>>>>>> 622574b1612d7632ccf99f51fb0a31e0e6ad4e2a
       run: echo $REPO_NAME
     - uses: actions/checkout@master
     - name: Archive Release
