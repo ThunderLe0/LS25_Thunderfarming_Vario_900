@@ -12,8 +12,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write      
     steps:
+    - name: Print name
+      run: echo "$REPO_NAME"
     - uses: actions/checkout@master
     - name: Archive Release
       uses: thedoctor0/zip-release@0.7.6
