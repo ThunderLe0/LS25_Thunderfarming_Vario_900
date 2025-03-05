@@ -5,7 +5,7 @@ on:
     tags:
     - 'v*.*.*'
 env:
-  REPO_NAME: ${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}
+  REPO_NAME: echo ${GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/}
 
 jobs:
   build:
