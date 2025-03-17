@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="95">
+<modDesc descVersion="96">
     <author>Leo</author>
-    <version>0.0.0.1</version>
+    <version>0.0.0.2</version>
     <title>
 		<en>Thunderfarming Vario 900</en>
     </title>
@@ -13,6 +13,9 @@ Price: $327,500
 Power: 650 hp
 Max. speed: 80 kph
 Capacity: 625 L
+
+Changelog 0.0.0.2
+- references insert in Vehicle.xml
 ]]>
 		</en>
 		<de>
@@ -22,6 +25,9 @@ Preis: 327.500€
 Leistung: 650 PS
 Höchstgeschwindigkeit: 80 km/h
 Kapazität: 625 L
+
+Changelog 0.0.0.2
+- Verweise in Vehicle.xml eingefügt
 ]]>
 		</de>
     </description>
