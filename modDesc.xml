@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="96">
     <author>Leo</author>
-    <version>1.0.0.2</version>
+    <version>1.0.0.1</version>
     <title>
 		<en>Thunderfarming Vario 900</en>
     </title>
@@ -14,8 +14,6 @@ Power: 650 hp
 Max. speed: 80 kph
 Capacity: 625 L
 
-Changelog 0.0.0.2
-- references insert in Vehicle.xml
 ]]>
 		</en>
 		<de>
@@ -26,8 +24,6 @@ Leistung: 650 PS
 Höchstgeschwindigkeit: 80 km/h
 Kapazität: 625 L
 
-Changelog 0.0.0.2
-- Verweise in Vehicle.xml eingefügt
 ]]>
 		</de>
     </description>
