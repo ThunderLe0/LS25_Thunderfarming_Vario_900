@@ -388,7 +388,7 @@
       <CustomParameter name="clearCoatIntensity" value="0.1"/>
       <CustomParameter name="clearCoatSmoothness" value="0.2"/>
     </Material>
-    <Material name="vario900Alpha_FENDT_GREY1_02_mat" materialId="774" customShaderId="5" customShaderVariation="vmaskUV2">
+    <Material name="vario900Alpha_FENDT_GREY1_02_mat" materialId="37" customShaderId="5" customShaderVariation="vmaskUV2">
       <Texture fileId="91"/>
       <Normalmap fileId="48"/>
       <Glossmap fileId="28"/>
@@ -1076,7 +1076,7 @@
           <TransformGroup name="cameraRaycastNode2" translation="0 3.43046 0.082331" nodeId="308"/>
           <TransformGroup name="cameraRaycastNode3" translation="0 3.43 -1.7381" nodeId="309"/>
           <Shape name="shadowFocusBox" translation="0 2.58047 -0.814737" shapeId="10" clipDistance="150" nodeId="310" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="8"/>
-          <Camera name="workCam" translation="3.00865 2.15115 1.93722" rotation="3.20747 64.3296 -3.0795e-08" nodeId="311" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1"/>
+          <Camera name="workCam" translation="5.70832 1.9833 3.23477" rotation="3.20747 64.3296 -3.0795e-08" nodeId="311" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1"/>
         </TransformGroup>
         <TransformGroup name="lights" nodeId="312">
           <TransformGroup name="sharedLights" nodeId="313">
@@ -1635,7 +1635,7 @@
           <TransformGroup name="fanEngine" translation="-8.1e-05 1.75219 1.43491" clipDistance="300" nodeId="756"/>
           <Shape name="metalTile" translation="-1.042 1.70889 -0.215044" shapeId="126" clipDistance="300" nodeId="757" castsShadows="true" receiveShadows="true" materialIds="85"/>
           <Shape name="engine_grid" translation="-3.4e-05 1.87106 1.64638" shapeId="127" clipDistance="300" nodeId="758" castsShadows="true" receiveShadows="true" materialIds="39"/>
-          <Shape name="engine_grid2" translation="-3.4e-05 1.87106 1.64638" shapeId="128" clipDistance="300" nodeId="759" castsShadows="true" receiveShadows="true" materialIds="774"/>
+          <Shape name="engine_grid2" translation="-3.4e-05 1.87106 1.64638" shapeId="128" clipDistance="300" nodeId="759" castsShadows="true" receiveShadows="true" materialIds="37"/>
           <Shape name="alpha_decals" translation="-0.405509 1.82752 -0.345702" shapeId="129" nodeId="760" castsShadows="true" receiveShadows="true" materialIds="36,38,35,38"/>
           <Shape name="exterior_decals" translation="0.029388 1.68088 0.22638" shapeId="130" clipDistance="80" nodeId="761" castsShadows="false" receiveShadows="true" decalLayer="1" materialIds="42,44,46,47,45"/>
           <TransformGroup name="lod01" lodDistance="0 50" nodeId="762">
