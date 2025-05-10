@@ -1145,6 +1145,7 @@
 		<i3dMapping id="fanEngine" node="0>0|11|0"/>
 		<i3dMapping id="engine_grid" node="0>0|11|2"/>
 		<i3dMapping id="vario900_vis_lod0" node="0>0|11|6|0"/>
+        <i3dMapping id="ThF_L" node="0>0|5|2|2|0"/>
 		<i3dMapping id="cropSensorTop" node="0>0|5|11|1"/>
         <i3dMapping id="cropSensorLeft" node="0>0|5|11|2"/>
         <i3dMapping id="cropSensorRight" node="0>0|5|11|0"/>
